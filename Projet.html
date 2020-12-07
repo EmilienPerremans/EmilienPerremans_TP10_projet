@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/projet.css">
+    <script src="js/projet.js"></script>
+    <title>Jeux</title>
+</head>
+<header>
+    <p>Le jeux est simple c'est un pierre feuille ciseau il vous suffit juste de choisir entre trois choix différents :</p>
+    <div id="choix">
+        <ol>
+            <li>Pierre</li>
+            <li>Feuille</li>
+            <li>Ciseau</li>
+        </ol>
+    </div>
+</header>
+
+
+<body>
+<form id="form" onsubmit="ajouterPersonnes(this); return false">
+    <label>Votre pseudo</label> : <input type="text"  name="pseudo" /><br><br>
+    <label>Votre âge</label> : <input type="number"  name="age" /><br><br>
+    <input type="submit" value="ajouter">
+
+</form>
+
+<form>
+    <div>
+        <p>Voici les choix : </p>
+        <button type="button" onclick="choix">Pierre</button>
+        <br>
+        <br>
+        <button type="button" onclick="choix">Feuille</button>
+        <br>
+        <br>
+        <button type="button" onclick="choix">Ciseau</button>
+    </div>
+</form>
+</body>
+</html>
