@@ -4,39 +4,37 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/projet.css">
     <script src="js/projet.js"></script>
-    <title>Jeux</title>
+    <title>index</title>
 </head>
-<header>
-    <p>Le jeux est simple c'est un pierre feuille ciseau il vous suffit juste de choisir entre trois choix différents :</p>
-    <div id="choix">
-        <ol>
-            <li>Pierre</li>
-            <li>Feuille</li>
-            <li>Ciseau</li>
-        </ol>
-    </div>
-</header>
-
-
-<body>
+<body onload="initialiserPage()">
+<main>
+    <section>
 <form id="form" onsubmit="ajouterPersonnes(this); return false">
-    <label>Votre pseudo</label> : <input type="text"  name="pseudo" /><br><br>
-    <label>Votre âge</label> : <input type="number"  name="age" /><br><br>
-    <input type="submit" value="ajouter">
-
+    <label class="pseudo">Votre pseudo</label> : <input class="personnage"  type="text"  name="pseudo"><input type="submit" style="font:1em Arial;" value="ajouter"><input type="reset" style="font: 1em Arial" value="Reset" />
 </form>
-
-<form>
-    <div>
-        <p>Voici les choix : </p>
-        <button type="button" onclick="choix">Pierre</button>
+<br>
+<form class="tableau">
+    <div id="centre">
+        <h3><p id="choix">Voici les choix : </p></h3>
+        <button type="button" onclick="choix(1)">Pierre</button>
         <br>
         <br>
-        <button type="button" onclick="choix">Feuille</button>
+        <button type="button" onclick="choix(2)">Feuille</button>
         <br>
         <br>
-        <button type="button" onclick="choix">Ciseau</button>
+        <button type="button" onclick="choix(3)">Ciseau</button>
+        <br>
+        <br>
+        <button type="button" onclick="points()">Finir le jeux</button>
+        <br>
+        <br>
     </div>
 </form>
+        <br>
+        <section id="tableau">
+            <-- Ici ce jour le tableau -->
+        </section>
+</section>
+</main>
 </body>
 </html>
