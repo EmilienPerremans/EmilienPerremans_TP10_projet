@@ -1,0 +1,133 @@
+html
+{
+	background-image:url("../img/fond2.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 10%;
+	margin: 0 auto;
+	width: auto;
+}
+
+
+header
+{
+	text-align: center;
+	border: outset mediumvioletred;
+	table-layout: auto;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	padding: 10px;
+}
+
+#form
+{
+	text-align: center;
+	border: black;
+	border-radius: 10px;
+	table-layout: auto;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	padding: 10px;
+	background-color: lightgoldenrodyellow;
+}
+
+#choix
+{
+	font-size: large;
+}
+
+button:hover
+{
+	border-radius: 30px ;
+	background-color: #008000;
+}
+
+button 
+{
+	border-radius: 10px;
+	background-color: greenyellow;
+	font-size: large;
+}
+
+.tableau
+{
+	text-align: center;
+}
+
+#tableau
+{
+	text-align: center;
+	border: black;
+	border-radius: 10px;
+	table-layout: auto;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	padding: 10px;
+	background-color: lightgoldenrodyellow;
+}
+
+#centre
+{
+	text-align: center;
+	border: black;
+	border-radius: 10px;
+	table-layout: auto;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	padding: 10px;
+	background-color: lightgoldenrodyellow;
+}
+
+footer
+{
+	border: outset mediumvioletred;
+	table-layout: auto;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.personnage
+{
+	font-size: large;
+}
+
+tr
+{
+	font-family: Arial;
+}
+
+#vert
+{
+	color: green;
+	font-family: Arial;
+	font-size: x-large;
+}
+
+#jaune
+{
+	color: chocolate;
+	font-family: Arial;
+	font-size: x-large;
+}
+
+#rouge
+{
+	color: red;
+	font-family: Arial;
+	font-size: x-large;
+}
+
+th
+{
+	text-align: center;
+}
